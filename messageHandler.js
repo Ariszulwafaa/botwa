@@ -86,12 +86,12 @@ module.exports = async (conn, message) => {
 		{
 			const text = `Halo tod selamat datang di *${conn.user.name}*!
 
-Fungsi bot ini adalah menjawab Pertanyaan
-Caranya ketik *tanya [soal]*
+Fungsi bot ini adalah menjawab pertanyaan untuk memudahkan ketika mencari jawaban (bukan dari ayang)
+Caranya ketik *tanya soalnya*
 
-Misal *Tanya siapa penemu sandal*
-
-JIKA BOTNYA TIDAK AKTIF,HUBUNGI / KLIK  wa.me/+628884196160?text=Bang idupin botnya`.replace("(jika ingin mengedit mohon untuk tidak hilangankan link ini)", "");
+Misal "*Tanya siapa penemu sandal*"
+*BOT ON 24 JAM*
+`.replace("(jika ingin mengedit mohon untuk tidak hilangankan link ini)", "");
 
 			conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
 			break;
