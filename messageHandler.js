@@ -226,6 +226,8 @@ Sopan banget kamu •_•`;
 
 		case "tanya":
                 case "Tanya":
+                case "Takon":
+                case "takon":
 		{
 			if (!parameter) {
 				conn.sendMessage(senderNumber, "Inputnya salah kak :)", MessageType.text, { quoted: message });
@@ -238,7 +240,7 @@ Sopan banget kamu •_•`;
 
 			} else if (data.success) {
 				for (const question of data.data.slice(0, 3)) {
-					const text = `*Pertanyaan:* ${question.pertanyaan.trim()}\n\n*Jawaban*: ${question.jawaban[0].text.replace("Jawaban:", "").trim()}`
+					const text = `*Pertanyaanmu:* ${question.pertanyaan.trim()}\n\n*Jawabannya*: ${question.jawaban[0].text.replace("Jawaban:", "").trim()}`
 					await conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message })
 				}
 			}
