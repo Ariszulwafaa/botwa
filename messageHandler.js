@@ -112,7 +112,7 @@ Misal *"Tanya siapa penemu sandal"*
                 {
                         const text = `Pa pe pa pe
 Salam yang bener ajg
-Ketik menu unruk mulai`;
+Ketik menu untuk mulai`;
                         conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
                         break;
                 }
@@ -121,7 +121,8 @@ Ketik menu unruk mulai`;
                 case "Assalamu'alaikum":
                 {
                         const text = `Waalaikumsalam
-Sopan banget kamu •_•`;
+Sopan banget kamu •_•
+Ketik menu untuk lihat caranya`;
                         conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
                         break;
                 }
