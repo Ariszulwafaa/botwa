@@ -218,7 +218,7 @@
     		}
     
     		case "tanya":
-                    case "Tanya":
+        case "Tanya":
     		{
     			if (!parameter) {
     				conn.sendMessage(senderNumber, "Inputnya salah kak :)", MessageType.text, { quoted: message });
@@ -464,7 +464,7 @@
     					conn.sendMessage(senderNumber, "Jawaban salah!", MessageType.text, { quoted: message })
     				}
     			} else if (!message.participant && !stickerMessage) {
-    				conn.sendMessage(senderNumber, "Ketik *menu* untuk melihat caranya ", MessageType.text, { quoted: message });
+    				conn.sendMessage(senderNumber, "Ketik *menu* untuk melihat caranya", MessageType.text, { quoted: message });
     			}
     		}
     
