@@ -87,10 +87,17 @@ module.exports = async (conn, message) => {
 			const text = `Halo tod selamat datang di *${conn.user.name}*!
 
 Fungsi bot ini adalah menjawab pertanyaan untuk memudahkan ketika mencari jawaban (bukan dari ayang)
+Bot ini dibuat seperti bot ruang guru agar membantumu 
 Caranya ketik *tanya soalnya*
 
-Misal "*Tanya siapa penemu sandal*"
+Misal *"Tanya siapa penemu sandal"*
+
+
+
+
 *BOT ON 24 JAM*
+
+_By Arsz_
 `.replace("(jika ingin mengedit mohon untuk tidak hilangankan link ini)", "");
 
 			conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
