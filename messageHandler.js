@@ -218,7 +218,7 @@
   		}
   
   		case "tanya":
-      case "Tanya":
+                case "Tanya":
   		{
   			if (!parameter) {
   				conn.sendMessage(senderNumber, "Inputnya salah kak :)", MessageType.text, { quoted: message });
