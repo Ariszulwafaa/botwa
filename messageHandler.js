@@ -97,6 +97,7 @@ Misal *Tanya siapa penemu sandal*
   
   		case "report":
       case "pencipta":
+      case "Pencipta":
   		{
   			const text = `Bot dibuat oleh Ariszulwafa
   
@@ -109,10 +110,8 @@ Misal *Tanya siapa penemu sandal*
                   case "p":
                   case "P":
                   {
-                          const text = `
-  Pa pe pa pe
-  Salam yang bener ajg
-  Ketik menu untuk mulai`;
+                          const text = `Pa pe pa pe
+Ketik menu untuk mulai`;
                           conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
                           break;
                   }
@@ -120,9 +119,8 @@ Misal *Tanya siapa penemu sandal*
                   case "Assalamualaikum":
                   case "Assalamu'alaikum":
                   {
-                          const text = `
-  Waalaikumsalam
-  Sopan banget kamu •_•`;
+                          const text = `Waalaikumsalam
+Ketik menu untuk melihat cara`;
                           conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
                           break;
                   }
@@ -220,6 +218,8 @@ Misal *Tanya siapa penemu sandal*
   
   		case "tanya":
                 case "Tanya":
+                case "Takon":
+                case "takon":
   		{
   			if (!parameter) {
   				conn.sendMessage(senderNumber, "Inputnya salah kak :)", MessageType.text, { quoted: message });
