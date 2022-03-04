@@ -1,6 +1,3 @@
-// https://github.com/salismazaya/whatsapp-bot
-// Jika ingin mengubah / mengedit, mohon untuk tidak menghilangkan link github asli di dalam bot terimakasih ^_^
-
 const fs = require("fs");
 const messageHandler = require("./messageHandler.js");
 const http = require("http");
