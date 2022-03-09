@@ -83,14 +83,14 @@
   		case "Menu":
   		{
   			const text = `Halo kak selamat datang di *${conn.user.name}*! ｡◕‿◕｡
-Fungsi bot ini adalah menjawab pertanyaan tentang pengetahuan 
+Fungsi bot ini adalah menjawab pertanyaan tentang pengetahuan
   
-*Caranya menggunakan :*
+*Caranya menggunakan (baca yang bener) :*
 1. Ketik *Tanya soalnya*
+  Contoh : tanya siapa penemu lampu
 2. Tunggu sampai bot membalas
 3. Kamu mendapatkan jawaban dari bot(・∀・)
-Contoh : tanya siapa penemu lampu
-
+Bot hanya menjawab pertanyaan tentang pengetahuan bukan nama orang atau pacar
 
 *GABUNG KE GRUP BOT!*
 Klik https://chat.whatsapp.com/GYU1tv9J3kwKZPd6Evuxvz
