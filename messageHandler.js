@@ -83,14 +83,19 @@
   		case "Menu":
   		{
   			const text = `Halo kak selamat datang di *${conn.user.name}*! ｡◕‿◕｡
-  
 Fungsi bot ini adalah menjawab pertanyaan tentang pengetahuan 
   
-Caranya ketik *tanya [soal]*
-Misal *Tanya siapa penemu sandal*
+*Caranya menggunakan :*
+1. Ketik *Tanya soalnya*
+2. Tunggu sampai bot membalas
+3. Kamu mendapatkan jawaban dari bot(・∀・)
+Contoh : tanya siapa penemu lampu
+
 
 *GABUNG KE GRUP BOT!*
-https://chat.whatsapp.com/GYU1tv9J3kwKZPd6Evuxvz
+Klik https://chat.whatsapp.com/GYU1tv9J3kwKZPd6Evuxvz
+*SAWER AKU UANG DONG KAK(✿ ♡‿♡)*
+Klik https://saweria.co/otackbot
 
 *BOT OFF KALO TURU*`.replace("(jika ingin mengedit mohon untuk tidak hilangankan link ini)", "");
   
