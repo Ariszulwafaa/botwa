@@ -82,17 +82,17 @@
   		case "menu":
   		case "Menu":
   		{
-  			const text = `Halo tod selamat datang di *${conn.user.name}*!
+  			const text = `Halo kak selamat datang di *${conn.user.name}*! ｡◕‿◕｡
   
 Fungsi bot ini adalah menjawab pertanyaan tentang pengetahuan 
   
 Caranya ketik *tanya [soal]*
 Misal *Tanya siapa penemu sandal*
 
-*Gabung ke grup bot!*
+*GABUNG KE GRUP BOT!*
 https://chat.whatsapp.com/GYU1tv9J3kwKZPd6Evuxvz
 
-*BOT AKTIF 24 JAM*`.replace("(jika ingin mengedit mohon untuk tidak hilangankan link ini)", "");
+*BOT OFF KALO TURU*`.replace("(jika ingin mengedit mohon untuk tidak hilangankan link ini)", "");
   
   			conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
   			break;
