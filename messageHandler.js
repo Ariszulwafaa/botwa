@@ -136,6 +136,15 @@ Ketik menu untuk melihat cara`;
                           conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
                           break;
                   }
+                  case "halo":
+                  case "Halo":
+                  case "Halo kak":
+                  {
+                          const text = `Halo juga
+Ketik menu untuk melihat cara`;
+                          conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
+                          break;
+                  }
   		case "!sticker":
   		case "!stiker":
   		{
