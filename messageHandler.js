@@ -94,8 +94,12 @@ Bot hanya menjawab pertanyaan tentang pengetahuan bukan nama orang atau pacar
 
 *GABUNG KE GRUP BOT!*
 Klik https://chat.whatsapp.com/GYU1tv9J3kwKZPd6Evuxvz
+
 *SAWER AKU UANG DONG KAK(✿ ♡‿♡)*
 Klik https://saweria.co/otackbot
+
+*TRAKTIR AKU DONG KAK (✿ ♡‿♡)*
+Klik https://trakteer.id/ariszul
 
 *BOT OFF KALO TURU*`.replace("(jika ingin mengedit mohon untuk tidak hilangankan link ini)", "");
   
