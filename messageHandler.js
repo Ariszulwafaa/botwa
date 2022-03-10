@@ -86,11 +86,16 @@
 Fungsi bot ini adalah menjawab pertanyaan tentang pengetahuan
   
 *Caranya menggunakan (baca yang bener) :*
-1. Ketik *Tanya soalnya*
-  Contoh : tanya siapa penemu lampu
+1. Ketik dengan tambahan kata *tanya*
+   Contoh : tanya siapa penemu lampu
 2. Tunggu sampai bot membalas
 3. Kamu mendapatkan jawaban dari bot(・∀・)
-Bot hanya menjawab pertanyaan tentang pengetahuan bukan nama orang atau pacar
+
+_*Bot hanya menjawab pertanyaan tentang pengetahuan bukan nama orang atau pacar*_
+
+*Fitur Lainnya Bot Ini*
+Ketik *fakta* : untuk menampilkan fakta dunia
+Ketik *pencipta* : menampilkan pencipta bot
 
 *GABUNG KE GRUP BOT!*
 Klik https://chat.whatsapp.com/GYU1tv9J3kwKZPd6Evuxvz
@@ -101,6 +106,7 @@ Klik https://saweria.co/otackbot
 *TRAKTIR AKU DONG KAK (✿ ♡‿♡)*
 Klik https://trakteer.id/ariszul
 
+*BOT ON KETIKA JAM KERJA 08.00 - 22.00*
 *BOT OFF KALO TURU*`.replace("(jika ingin mengedit mohon untuk tidak hilangankan link ini)", "");
   
   			conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
@@ -261,6 +267,8 @@ Ketik menu untuk melihat cara`;
   		}
   
   		case "!quotes":
+  		case "Quotes":
+  		case "quotes":
   		{
   			const quotes = quotesList[Math.floor(Math.random() * quotesList.length)];
   			const text = `_"${quotes.quote}"_\n\n - ${quotes.by}`;
@@ -270,6 +278,8 @@ Ketik menu untuk melihat cara`;
   
   		case "!randomfact":
   		case "!fact":
+  		case "fakta":
+  		case "Fakta":
   		{
   			const fact = factList[Math.floor(Math.random() * factList.length)];
   			const text = `_${fact}_`
