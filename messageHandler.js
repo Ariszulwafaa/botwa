@@ -126,13 +126,14 @@ Klik https://trakteer.id/ariszul
   			break;
   		}
   		case "asu":
-      case "anjing":
-      case "kontol":
-      case "memek":
-      case "jembut":
-      case "tempik":
-  		{
-  			const text = `Woy ga boleh toxic ⊙﹏⊙`;
+                case "anjing":
+                case "kontol":
+                case "memek":
+                case "jembut":
+                case "tempik":
+   		{
+  			const text = `Woy 
+Ga boleh toxic ⊙﹏⊙`;
   			conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
   			break;
   		}
