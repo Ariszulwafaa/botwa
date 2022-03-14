@@ -93,9 +93,10 @@ Fungsi bot ini adalah menjawab pertanyaan tentang pengetahuan
 
 _*Bot hanya menjawab pertanyaan tentang pengetahuan bukan nama orang atau pacar*_
 
-*Fitur Lainnya Bot Ini*
+*FITUR LAINNYA BOT INI*
 Ketik *fakta* : untuk menampilkan fakta dunia
 Ketik *pencipta* : menampilkan pencipta bot
+Jangan lupa order youtube premium receh, ketik *premium* untuk melihat
 
 *GABUNG KE GRUP BOT!*
 Klik https://chat.whatsapp.com/GYU1tv9J3kwKZPd6Evuxvz
@@ -163,6 +164,28 @@ Ketik menu untuk melihat cara`;
                           conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
                           break;
                   }
+                  case "premium":
+                  case "Premium":
+                  {
+                          const text = `*YouTube Premium Receh*
+
+
+*YouTube Keluarga*
+- bisa undang 5 orang
+- durasi 1 bulan
+_*Harga 5.000*_
+
+*YouTube Per-orangan*
+- hanya 1 orang
+- durasi 1 bulan
+_*Harga 10.000*_
+
+*Premium Dulu Baru Bayar*
+Chat owner bot ini wa.me/+628884196160`;
+                          conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
+                          break;
+                  }
+
   		case "!sticker":
   		case "!stiker":
   		{
