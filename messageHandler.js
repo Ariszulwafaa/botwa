@@ -94,8 +94,12 @@ Fungsi bot ini adalah menjawab pertanyaan tentang pengetahuan
 _*Bot hanya menjawab pertanyaan tentang pengetahuan bukan nama orang atau pacar*_
 
 *FITUR LAINNYA BOT INI*
-Ketik *fakta* : untuk menampilkan fakta dunia
-Ketik *pencipta* : menampilkan pencipta bot
+Ketik *fakta* : 
+untuk menampilkan fakta dunia
+
+Ketik *pencipta* : 
+menampilkan pencipta bot
+
 Jangan lupa order youtube premium receh, ketik *premium* untuk melihat
 
 *GABUNG KE GRUP BOT!*
@@ -132,17 +136,22 @@ Klik https://trakteer.id/ariszul
                 case "memek":
                 case "jembut":
                 case "tempik":
+                case "Anjing":
+                case "Kontol":
+                case "Memek":
+                case "Jembut":
+                case "Tempik":
    		{
-  			const text = `Woy 
-Ga boleh toxic ⊙﹏⊙`;
+  			const text = `Ancrit
+Kok kamu toxic bang`;
   			conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
   			break;
   		}
                   case "p":
                   case "P":
                   {
-                          const text = `Pa pe pa pe
-Ketik menu untuk mulai`;
+                          const text = `P juga
+Ketik *menu* untuk melihat cara`;
                           conn.sendMessage(senderNumber, text, MessageType.text, { quoted: message });
                           break;
                   }
@@ -173,12 +182,12 @@ Ketik menu untuk melihat cara`;
 *YouTube Keluarga*
 - bisa undang 5 orang
 - durasi 1 bulan
-_*Harga 5.000*_
+_*Harga 15.000*_
 
 *YouTube Per-orangan*
 - hanya 1 orang
 - durasi 1 bulan
-_*Harga 10.000*_
+_*Harga 5.000*_
 
 *Premium Dulu Baru Bayar*
 Chat owner bot ini wa.me/+628884196160`;
